@@ -4,10 +4,11 @@ html {box-sizing: border-box;}
 .octodex {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .octocat {
-	width: 33%;
+	width: 400px;
 	margin: 10px;
 }
 
@@ -86,7 +87,7 @@ html {box-sizing: border-box;}
     border-top:7px solid #cacaca;
     position: absolute;
     margin-top: -10px;
-    margin-left: 387px;
+    margin-left: 385px;
 }
 
 
