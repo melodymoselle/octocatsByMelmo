@@ -1,0 +1,93 @@
+html {box-sizing: border-box;}
+*, *::after, *::berfore {box-sizing: inherit;}
+
+.octodex {
+	display: flex;
+	justify-content: space-around;
+}
+
+.octocat {
+	width: 33%;
+	margin: 10px;
+}
+
+.octocat a {
+	display: block;
+	border: solid 1px #cacaca;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.octocat img {
+	width: 100%;
+}
+
+.image-footer {
+	padding-top: 10px;
+	border-bottom: solid 1px #cacaca;
+	height: 8%;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #cacaca;
+	font-weight: bold;
+}
+
+.image-number {
+	display: inline-block;
+	padding-top: 5px;
+}
+
+.image-number::before {
+	content: "#";
+}
+
+.image-caption {
+	float: right;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #777;
+	font-size: 14px;
+}
+
+.image-caption a {
+	display: inline-block;
+	text-decoration: none;
+	border: none;
+	margin: 0;
+	padding: 0 5px;
+	color: #333;
+	cursor: pointer;
+}
+
+.image-caption span a{
+	color: #333;
+}
+
+.image-caption .authors li a {
+	padding: 0;
+}
+
+.image-caption img {
+	height: 25px;
+	width: 25px;
+	border-radius: 3px;
+}
+
+.authors {
+	padding-left: 10px;
+}
+
+.image-footer::before{
+	content: "";
+	width: 0;
+	height: 0;
+    border-left:7px solid transparent;
+    border-right:7px solid transparent;
+    border-top:7px solid #cacaca;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 387px;
+}
+
+
+
